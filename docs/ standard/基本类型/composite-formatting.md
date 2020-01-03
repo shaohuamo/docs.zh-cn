@@ -113,8 +113,8 @@ ms.locfileid: "73091560"
  [!code-csharp[Formatting.Composite#2](../../../samples/snippets/csharp/VS_Snippets_CLR/Formatting.Composite/cs/Escaping1.cs#2)]
  [!code-vb[Formatting.Composite#2](../../../samples/snippets/visualbasic/VS_Snippets_CLR/Formatting.Composite/vb/Escaping1.vb#2)]  
   
-### <a name="processing-order"></a>处理顺序  
- 如果对复合格式设置方法的调用包括其值不为 <xref:System.IFormatProvider> 的 `null` 参数，则运行时会调用其 <xref:System.IFormatProvider.GetFormat%2A?displayProperty=nameWithType> 方法来请求 <xref:System.ICustomFormatter> 实现。 如果此方法能够返回 <xref:System.ICustomFormatter> 实现，那么它将在复合格式方法调用期间缓存。
+### <一个名字=“处理顺序”> </一>处理顺序
+如果对复合格式设置方法的调用包括其值不为<xref：System.IFormatProvider>的`null`参数，则运行时会调用其<xref：System.IFormatProvider.GetFormat％2A？displayProperty = nameWithType>方法来请求如果此方法能够返回<xref：System.ICustomFormatter>实现，那么可以在复合格式方法调用缓存中。
   
  如下所示，将参数列表中与格式项对应的每个值转换为字符串：  
   
